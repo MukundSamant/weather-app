@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Fira Sans Light';
+  src: url('assets/font/FiraSans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Sans Book';
+  src: url('assets/font/FiraSans-Book.woff') format('woff');
+}
+
+* {
+  font-family: 'Fira Sans Book';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

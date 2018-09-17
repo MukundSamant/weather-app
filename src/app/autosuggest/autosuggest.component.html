@@ -1,0 +1,10 @@
+<div class="autocomplete">
+  <input type="text" [placeholder]="placeHolder"
+         (input)="changeValue($event.target.value)"
+         [value]="value">
+  <div class="autocomplete-items">
+    <div *ngFor="let autoSuggestion of autoSuggestions" (click)="autoSuggestListItemClick(autoSuggestion)">
+      {{autoSuggestion[displayKey]}}
+    </div>
+  </div>
+</div>
