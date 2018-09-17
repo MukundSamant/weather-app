@@ -1,6 +1,6 @@
 # WeatherApp
 
-A weather app built in Angular that integrates HERE Places API and OpenStreetMap.
+A weather app built in Angular 5 that integrates HERE Places API and Dark Sky to display weather forecast. It also has a map which pans to the place searched.
 
 ![App Screenshot](/src/assets/app-screenshot.png?raw=true "Optional Title")
 
