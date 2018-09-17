@@ -1,5 +1,7 @@
 # WeatherApp
 
+Simple weather app that integrates HERE Places API and OpenStreetMap
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
 ## Development server
